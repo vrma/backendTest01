@@ -1,10 +1,11 @@
 package com.capgemini.entities;
 
 public class Persona {
-	
+
 	private Long id;
 	private String nombre;
-	
+	private String apellidos;
+
 	public Persona() {
 		super();
 		// TODO Auto-generated constructor stub
@@ -31,6 +32,13 @@ public class Persona {
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
-	
-	
+
+	public String getApellidos() {
+		return apellidos;
+	}
+
+	public void setApellidos(String apellidos) {
+		this.apellidos = apellidos;
+	}
+
 }
